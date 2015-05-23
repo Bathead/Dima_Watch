@@ -37,7 +37,7 @@ jQuery(function($){
         $('.dwatch-alarm-input').timepicker({
             'timeFormat': 'H:i:s',
             'showDuration': true,
-            'step': 1
+            'step': 10
         });
         $('.dwatch-alarm-input').timepicker('show');
     });
