@@ -1,0 +1,57 @@
+.dima-watch-class {
+    margin-bottom: 20px;
+    font-size: 150%;
+}
+.dwatch-analog-сlock {
+    margin: 0 auto;
+    position: relative;
+    height: 200px;
+    width: 200px;
+}
+.dwatch-analog-dial {
+    position: absolute;
+}
+.dwatch-analog-hour {
+    position: absolute;
+    z-index: 20;
+}
+.dwatch-analog-second {
+    position: absolute;
+    z-index: 30;
+
+}
+.dwatch-analog-minute {
+    position: absolute;
+    z-index: 10;
+}
+.dwatch-digital-clock {
+    font-size: 220%;
+    text-align: center;
+}
+.dwatch-alarm-area {
+    text-align: center;
+
+}
+.dwatch-set-alarm-picker {
+    width: 40px;
+}
+.dwatch-alarm-handler {
+    margin: 10px;
+    display: none;
+    height: 48px;
+}
+.dwatch-cancel-alarm:hover::after {
+    content: ' - Відмінити?'
+}
+.dwatch-notification {
+    color: white;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background: red;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    padding: 10px;
+    cursor: pointer;
+}
