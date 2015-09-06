@@ -1,11 +1,10 @@
 <?php
 /*
-Plugin Name: Dima Watch
+Plugin Name: Aqua Watch
 Plugin URI: http://www.dima.rv.ua
-Description: Тестове завдання на PHP CMS Developer у Soft Group
+Description: Digital and analog clock with alarm
 Version: 1
 Author: Dima Oliynyk
-Text Domain: dimawatch
 */
 add_action("widgets_init", function () {
     register_widget("DimaWatch");
